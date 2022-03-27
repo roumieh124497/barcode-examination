@@ -1,0 +1,47 @@
+[
+  {
+    "full_name": "jone smith",
+    "email": "smith@gmail.com",
+    "password": "jone1234",
+    "studentID": "001",
+    "nationality": "american",
+    "department": "computer enginnering",
+    "image": "jone.jpg"
+  },
+  {
+    "full_name": "angila yu",
+    "email": "yu@gmail.com",
+    "password": "angila1234",
+    "studentID": "002",
+    "nationality": "american",
+    "department": "Business Adminstration",
+    "image": "angila.jpeg"
+  },
+  {
+    "full_name": "mohammed hussamEldeen elmadhoon",
+    "email": "elmadhoon@gmail.com",
+    "password": "elmadhoon1234",
+    "studentID": "003",
+    "nationality": "egyptian",
+    "department": "computer engineering",
+    "image": "elmadhoon.jpg"
+  },
+  {
+    "full_name": "alaa ahmed",
+    "email": "alaa@gmail.com",
+    "password": "alaa1234",
+    "studentID": "004",
+    "nationality": "syrian",
+    "department": "architucture",
+    "image": "alaa.jpg"
+  },
+  {
+    "full_name": "james jon",
+    "email": "jon@gmail.com",
+    "password": "jon1234",
+    "studentID": "005",
+    "nationality": "american",
+    "department": "psychology",
+    "image": "james.jpg"
+  }
+]

@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #efefef;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  position: relative;
+  background-image: url('./img/educationBackground.jpg');
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+footer {
+  background-color: #f0a500;
+  position: absolute;
+  bottom: -600px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+hr {
+  width: 50%;
+  margin: auto;
+  border-style: none;
+  background: rgb(5, 4, 4);
+  height: 1px;
+
+  margin-bottom: 40px;
+}
+svg {
+  width: 40px;
+}
+.contact-lists {
+  display: flex;
+  gap: 13px;
+  list-style: none;
+  margin-left: 43%;
+  position: absloute;
+  margin-bottom: 10px;
+}
+.exam-rules__description {
+  background-color: #f0a400b6;
+  backdrop-filter: blur(5px);
+  padding: 25px;
+  width: 544px;
+  border-radius: 12px;
+}
+
+.copyRight {
+  font-weight: 500;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0a500;
+  padding: 10px 25px;
+  width: 96%;
+  margin: auto;
+  border-radius: 7px;
+}
+
+.logo {
+  font-family: 'Luckiest Guy', cursive;
+  background-color: bisque;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.lists {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+}
+.home-list {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.home-list:hover,
+.home-list:active {
+  background-color: #f8d280;
+  padding: 9px;
+  border-radius: 9px;
+}
+
+.courses-list {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.courses-list:hover,
+.courses-list:active {
+  background-color: #f8d280;
+  padding: 9px;
+  border-radius: 9px;
+}
+.exam-list {
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #f8d280;
+  padding: 9px;
+  border-radius: 9px;
+}
+
+.exam-list:hover,
+.exam-list:active {
+  background-color: #f8d280;
+  padding: 9px;
+  border-radius: 9px;
+}
+
+.img-button img {
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: none;
+}
+.img-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: none;
+}
+
+.coursebox {
+  background-color: #f0a500;
+  width: 35%;
+  padding: 3rem;
+  position: absolute;
+  border-radius: 1.2rem;
+  top: 250px;
+  left: 100px;
+}
+
+.course1 {
+  margin-bottom: 20px;
+}
+
+.course1:hover,
+coursebox:active {
+  background-color: #f8d280;
+  padding: 9px;
+  border-radius: 9px;
+}
+
+.course2 {
+  margin-bottom: 20px;
+}
+.course2:hover,
+coursebox:active {
+  background-color: #f8d280;
+  padding: 9px;
+  border-radius: 9px;
+}
+
+.course3 {
+  margin-bottom: 20px;
+}
+.course3:hover,
+coursebox:active {
+  background-color: #f8d280;
+  padding: 9px;
+  border-radius: 9px;
+}
+
+.courseExam-list {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.img-instuct {
+  width: 400x;
+  height: 250px;
+  position: relative;
+  top: 50px;
+  left: 55%;
+}
+
+.rules {
+  margin-bottom: 40px;
+}
+
+.rule-list li {
+  margin-bottom: 5px;
+}
+
+.pop-up {
+  background-color: #f0a500;
+  width: 40%;
+  height: 350px;
+  padding: 3rem;
+  position: absolute;
+  border-radius: 1.2rem;
+  top: 250px;
+  left: 450px;
+  box-shadow: 0 0 0 12px rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  display: none;
+}
+
+.pop-list {
+  list-style: none;
+  position: absolute;
+  top: 50%;
+}
+
+.pop-list-name {
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.header-popup {
+  width: 100%;
+}
+
+.scanBarcode {
+  height: 1.5rem;
+  width: 12rem;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  border-radius: 5px;
+  margin-left: 100px;
+  border-style: none;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.exit-btn {
+  height: 20px;
+  width: 20px;
+  background-color: #f0a500;
+  border-style: none;
+}
+
+.svg-exit {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+.blur {
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+
+.menu {
+  z-index: 7;
+  position: absolute;
+  right: 40px;
+  top: 70px;
+  padding: 10px 20px;
+  background: #f8d280;
+  width: 200px;
+  box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  transition: all 0.1s;
+  visibility: hidden;
+}
+.menuVisible {
+  visibility: visible;
+}
+.menu::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: 28px;
+  width: 20px;
+  height: 20px;
+  background: #f8d280;
+  transform: rotate(45deg);
+}
+
+.menu h3 {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px 0;
+  font-weight: 500;
+  color: #000;
+  line-height: 1.2rem;
+}
+
+.menu h3 span {
+  font-size: 18px;
+  color: #616060;
+  font-weight: 400;
+}
+#log-out-btn:hover {
+  color: #f7ba37;
+}
+
+.menu ul li {
+  list-style: none;
+  padding: 10px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.menu ul li:hover a {
+  color: #f0a500;
+}
+
+.menu ul li svg {
+  max-width: 20px;
+}
+
+.info p {
+  margin-bottom: 16px;
+}

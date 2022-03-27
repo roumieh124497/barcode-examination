@@ -1,0 +1,109 @@
+[
+  {
+    "full_name": "ike goonsman",
+    "email": "goonsman@gmail.com",
+    "password": "goonsman1234",
+    "nationality": "american",
+    "department": "computer enginnering",
+    "image": "ike.jpg"
+  },
+
+  {
+    "full_name": "jake reed",
+    "email": "reed@gmail.com",
+    "password": "reed1234",
+    "nationality": "american",
+    "department": "computer enginnering",
+    "image": "jake3.jpg"
+  },
+
+  {
+    "full_name": "jake johnson",
+    "email": "johnson@gmail.com",
+    "password": "johnson1234",
+    "nationality": "american",
+    "department": "computer enginnering",
+    "image": "jake2.jpg"
+  },
+
+  {
+    "full_name": "chris dwayne",
+    "email": "dwayne@gmail.com",
+    "password": "dwayne1234",
+    "nationality": "spanish",
+    "department": "psychology",
+    "image": "chris.jpg"
+  },
+
+  {
+    "full_name": "taylor smith",
+    "email": "taylor@gmail.com",
+    "password": "taylor1234",
+    "nationality": "south african",
+    "department": "psychology",
+    "image": "taylor.jpg"
+  },
+
+  {
+    "full_name": "laura jones",
+    "email": "jones@gmail.com",
+    "password": "jones1234",
+    "nationality": "american",
+    "department": "psychology",
+    "image": "laura.jpg"
+  },
+
+  {
+    "full_name": "mustafa aksoy",
+    "email": "aksoy@gmail.com",
+    "password": "aksoy1234",
+    "nationality": "turkish",
+    "department": "architecture",
+    "image": "mustafa.jpg"
+  },
+
+  {
+    "full_name": "mark pratt",
+    "email": "pratt@gmail.com",
+    "password": "pratt1234",
+    "nationality": "american",
+    "department": "architecture",
+    "image": "mark3.jpg"
+  },
+
+  {
+    "full_name": "moe shiz",
+    "email": "shiz@gmail.com",
+    "password": "shiz1234",
+    "nationality": "mozambican",
+    "department": "architecture",
+    "image": "moe.jpg"
+  },
+
+  {
+    "full_name": "santos ibrahim",
+    "email": "ibrahim@gmail.com",
+    "password": "ibrahim1234",
+    "nationality": "nigeria",
+    "department": "business administration",
+    "image": "santos.jpg"
+  },
+
+  {
+    "full_name": "moosa mohammad",
+    "email": "mohammad@gmail.com",
+    "password": "mohammad1234",
+    "nationality": "swazi",
+    "department": "business administration",
+    "image": "moosa.jpg"
+  },
+
+  {
+    "full_name": "faziel goolam",
+    "email": "goolam@gmail.com",
+    "password": "goolam1234",
+    "nationality": "swazi",
+    "department": "business administration",
+    "image": "faziel.jpg"
+  }
+]

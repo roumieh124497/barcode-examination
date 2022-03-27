@@ -1,0 +1,34 @@
+[
+  {
+    "course_name": "Introduction to Computer Engineering",
+    "course_code": "CMP1001"
+  },
+  {
+    "course_name": "Introduction to Computer Systems and Algorithms",
+    "course_code": "CMP1003"
+  },
+  {
+    "course_name": "Introduction to Digital Logic",
+    "course_code": "CMP2001"
+  },
+  {
+    "course_name": "Object Oriented Programming",
+    "course_code": "CMP2005"
+  },
+  {
+    "course_name": "Object Oriented Programming",
+    "course_code": "CMP2005"
+  },
+  {
+    "course_name": "Object Oriented Programming",
+    "course_code": "CMP2005"
+  },
+  {
+    "course_name": "Object Oriented Programming",
+    "course_code": "CMP2005"
+  },
+  {
+    "course_name": "Object Oriented Programming",
+    "course_code": "CMP2005"
+  }
+]

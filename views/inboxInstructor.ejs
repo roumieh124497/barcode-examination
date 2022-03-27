@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="/inbox.css" />
+    <title>Inbox Page</title>
+  </head>
+  <body>
+    <div class="box-message">
+      <button class="exit-btn">
+        <svg
+          class="exit-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          version="1.1"
+          id="Capa_1"
+          x="0px"
+          y="0px"
+          viewBox="0 0 490 490"
+          style="enable-background: new 0 0 490 490"
+          xml:space="preserve"
+        >
+          <polygon
+            points="386.813,0 245,141.812 103.188,0 0,103.188 141.813,245 0,386.812 103.187,489.999 245,348.187 386.813,490   490,386.812 348.187,244.999 490,103.187 "
+          />
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+          <g></g>
+        </svg>
+      </button>
+      <form action="/inbox-instructor" method="post">
+        <input
+          id="inputField"
+          name="to"
+          type="text"
+          style="visibility: hidden"
+        />
+        <textarea name="textArea" id="" cols="30" rows="12"></textarea>
+        <button type="submit" class="sent-button">sent</button>
+      </form>
+    </div>
+    <main class="main">
+      <div class="big-container">
+        <h2>Inbox</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-9 col-md-10">
+              <div class="tab-content">
+                <div class="tab-pane fade in active" id="home">
+                  <div class="list-group">
+                    <% for(var i = composeFiltered.length-1; i >= 0; i-- ) { %>
+                    <a class="list-group-item">
+                      <span
+                        class="name"
+                        style="min-width: 120px; display: inline-block"
+                        ><%= composeFiltered[i].from %></span
+                      >
+
+                      <span class="text-muted" style="font-size: 11px"
+                        >- <%= composeFiltered[i].message %></span
+                      >
+                      <button class="replay-button">Replay</button>
+                    </a>
+                    <% } %>
+                  </div>
+                </div>
+                <div class="tab-pane fade in" id="profile">
+                  <div class="list-group">
+                    <div class="list-group-item">
+                      <span class="text-center">This tab is empty.</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade in" id="messages">...</div>
+                <div class="tab-pane fade in" id="settings">
+                  This tab is empty.
+                </div>
+              </div>
+              <!-- Ad -->
+            </div>
+          </div>
+        </div>
+        <a class="home-button" href="/dashboared-Home"><span>HOME</span></a>
+      </div>
+    </main>
+    <script>
+      const replyBtn = document.querySelectorAll('.list-group-item');
+      const bl = document.querySelectorAll('.name');
+      const btn = document.querySelector('.exit-btn');
+      const main = document.querySelector('.main');
+      const boxs = document.querySelectorAll('.replay-button');
+      const popUp = document.querySelector('.box-message');
+
+      for (var i = 0; i < replyBtn.length; i++) {
+        replyBtn[i].addEventListener('click', function (e) {
+          e.preventDefault();
+          const email = this.children[0].innerText;
+
+          document.getElementById('inputField').setAttribute('value', email);
+        });
+      }
+
+      boxs.forEach(box => {
+        box.addEventListener('click', () => {
+          main.classList.add('blur');
+          popUp.style.display = 'flex';
+        });
+      });
+
+      btn.addEventListener('click', e => {
+        // e.preventDefault();
+        main.classList.remove('blur');
+        popUp.style.display = 'none';
+      });
+    </script>
+  </body>
+</html>

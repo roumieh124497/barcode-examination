@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 1rem;
+  position: relative;
+  background-color: rgb(236, 236, 236);
+  font-family: 'Montserrat', sans-serif;
+}
+.main-div {
+  margin-top: 150px;
+  display: flex;
+  position: absolute;
+  left: 40%;
+  top: 175%;
+  flex-direction: column;
+}
+
+.barcode-img {
+  width: 530px;
+  height: 250px;
+  margin-right: 125px;
+  align-self: center;
+  justify-self: center;
+}
+
+.site-info {
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+.secondary-header {
+  margin-bottom: 11px;
+  font-size: 1.5rem;
+}
+.welcome-paragraph {
+  font-size: 22px;
+  line-height: 1.5;
+  width: 90%;
+}
+.loginbox {
+  background-color: #f0a500;
+  width: 35%;
+  padding: 3rem;
+  position: absolute;
+  border-radius: 1.2rem;
+  top: 132px;
+  left: 28px;
+  box-shadow: 0 0 25px 1px rgb(150, 149, 149);
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-primary {
+  font-size: 1.5rem;
+  margin-bottom: 2.2rem;
+  text-align: center;
+}
+.email-input {
+  padding: 0.9rem;
+  border-radius: 7px;
+  border-style: none;
+  display: inline-block;
+  width: 70%;
+  font-size: 1.1rem;
+  outline: #f9d5a7;
+  margin-bottom: 2rem;
+}
+
+.password-input {
+  padding: 0.9rem;
+  border-radius: 7px;
+  border-style: none;
+  display: inline-block;
+  width: 70%;
+  margin-top: -15px;
+  font-size: 1.1rem;
+  outline: #f9d5a7;
+  margin-bottom: 2.5rem;
+}
+
+.submit-btn {
+  padding: 0.9rem;
+  border-radius: 7px;
+  border-style: none;
+  display: inline-block;
+  width: 70%;
+  transition: all;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 2.5rem;
+}
+
+.submit-btn:hover {
+  background-color: #f9d5a7;
+  transition-duration: 400ms;
+}

@@ -1,0 +1,13 @@
+const storage = require('node-sessionstorage');
+const Course = require('./../models/courseModel');
+exports.getexamRoomPage = async (req, res) => {
+  const userFind = storage.getItem('userFind');
+  const courses = await Course.find({});
+  let courseFinal = [];
+  for (let i = 0; i < courses.length; i++) {
+    if (courses[i].students.some(st => st.email === userFind.email)) {
+      courseFinal.push(courses[i]);
+    }
+  }
+  res.render('examroom', { courseFinal: courseFinal, userFind: userFind });
+};

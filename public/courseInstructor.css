@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+
+  background-image: url('/img/educationBackground.jpg');
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+.logout-btn:hover {
+  color: aliceblue;
+}
+/* sidebar menu */
+span svg {
+  height: 24px;
+}
+
+.instructor-img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.navigation {
+  z-index: 10;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+  position: fixed;
+  width: 60px;
+  height: 100%;
+  background: #f0a500;
+  transition: 0.5s;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+
+.navigation:hover {
+  width: 300px;
+}
+
+.navigation ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation ul li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+}
+
+.navigation ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+}
+
+.navigation ul li a .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.navigation ul li a .title {
+  margin-top: 17px;
+  color: black;
+}
+
+.navigation ul li a .title:hover {
+  color: #f1dfb6;
+}
+
+.logout-li {
+  margin-top: 350px;
+}
+/* main content */
+.main-containr {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 60px;
+  row-gap: 60px;
+}
+
+.announcment-btn {
+  width: 220px;
+  height: 220px;
+  background: #f0a500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-style: none;
+  border-radius: 7px;
+  transition: 0.4s;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+.announcment-btn:hover {
+  background: #f1dfb6;
+}
+.announcment-btn svg {
+  margin-bottom: 40px;
+  width: 60px;
+}
+
+.announcment-btn a {
+  position: absolute;
+  bottom: 35px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.submitted-btn {
+  width: 220px;
+  height: 220px;
+  background: #f0a500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-style: none;
+  border-radius: 7px;
+  transition: 0.4s;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+
+.submitted-btn:hover {
+  background: #f1dfb6;
+}
+.submitted-btn svg {
+  margin-bottom: 40px;
+  width: 60px;
+}
+
+.submitted-btn a {
+  position: absolute;
+  bottom: 35px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.add-exam--btn {
+  width: 220px;
+  height: 220px;
+  background: #f0a500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-style: none;
+  border-radius: 7px;
+  transition: 0.4s;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+.add-exam--btn:hover {
+  background: #f1dfb6;
+}
+.add-exam--btn img {
+  margin-bottom: 40px;
+  width: 60px;
+}
+
+.add-exam--btn a {
+  position: absolute;
+  bottom: 35px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.circular {
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+  background: #f0a500;
+  justify-self: center;
+  align-self: center;
+  position: relative;
+  border-style: none;
+  transition: 0.4s;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
+}
+
+.circular svg {
+  margin-bottom: 25px;
+  width: 60px;
+}
+.circular-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-style: none;
+  border-radius: 7px;
+}
+
+.circular:hover {
+  background: #f1dfb6;
+}
